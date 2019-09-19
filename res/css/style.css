@@ -1,0 +1,79 @@
+html, body {
+    font-family: 'Gayathri', sans-serif;
+    margin: 30px;
+    padding: 10px;
+    background-color: #a9bcb0;
+}
+
+section:first-of-type{
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+    background-color: #90a497;
+    flex-direction: row-reverse;
+}
+section:last-of-type{
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+    background-color: #90a497;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #90a497;
+    box-shadow: 0 10px 10px -10px rgba(84, 23, 50, 0.13);
+}
+
+header strong {
+    font-size: 20px;
+}
+
+#number {
+    background-color: #4b1110;
+}
+
+.picture {
+    float: right;
+    width: 50%;
+    padding: 10px 30px 10px 10px;
+}
+
+.myInfo {
+    padding: 10px;
+    list-style:none;
+    width: 70%;
+}
+
+.myInfo ol{
+    list-style:none;
+}
+
+#name {
+    font-size: 22px;
+}
+
+#number{
+    display: none;
+}
+
+a{
+    color: #0a7670;
+}
+
+a:hover{
+    color: #766807;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
