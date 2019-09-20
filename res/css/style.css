@@ -5,14 +5,19 @@ html, body {
     background-color: #a9bcb0;
 }
 
-section:first-of-type{
+section {
+    padding: 20px;
+}
+
+section:first-of-type {
     display: flex;
     width: 70%;
     margin: 30px auto;
     background-color: #90a497;
     flex-direction: row-reverse;
 }
-section:last-of-type{
+
+section:last-of-type {
     display: flex;
     width: 70%;
     margin: 30px auto;
@@ -38,6 +43,7 @@ header strong {
 
 #number {
     background-color: #4b1110;
+    display: none;
 }
 
 .picture {
@@ -48,31 +54,40 @@ header strong {
 
 .myInfo {
     padding: 10px;
-    list-style:none;
+    list-style: none;
     width: 70%;
 }
 
-.myInfo ol{
-    list-style:none;
+.myInfo ol {
+    list-style: none;
 }
 
 #name {
     font-size: 22px;
 }
 
-#number{
-    display: none;
-}
-
-a{
+a {
     color: #0a7670;
 }
 
-a:hover{
+a:hover {
     color: #766807;
 }
 
-footer{
+.courseInfo thead {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+ol > li {
+    font-weight: bold;
+}
+
+section ~ footer {
+    background-color: #b1caba;
+}
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
