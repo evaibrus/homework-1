@@ -84,7 +84,7 @@ ol > li {
 }
 
 section ~ footer {
-    background-color: #b1caba;
+    font-style: italic;
 }
 
 footer {
@@ -96,8 +96,8 @@ footer {
 @media screen and (max-width: 800px) {
     html, body {
         margin: 10px;
-
     }
+
     section:first-of-type {
         width: 90%;
     }
@@ -111,4 +111,7 @@ footer {
         width: 90%;
     }
 
+    .courseInfo thead {
+        font-size: 16px;
+    }
 }
