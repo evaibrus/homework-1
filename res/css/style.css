@@ -92,3 +92,23 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+    html, body {
+        margin: 10px;
+
+    }
+    section:first-of-type {
+        width: 90%;
+    }
+
+    section:last-of-type {
+        width: 90%;
+    }
+
+    .myInfo {
+        padding: 0;
+        width: 90%;
+    }
+
+}
